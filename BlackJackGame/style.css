@@ -23,4 +23,6 @@ body{
     font-weight: bold;
     border:none;
     border-radius:2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
