@@ -19,6 +19,9 @@ button{
     border: none;
    padding: 10px 20px;
    font-weight: bold;
-    
+}
 
+#hidden{
+    color:#197687;
+    font-weight: bold;
 }
