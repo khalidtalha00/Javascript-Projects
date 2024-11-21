@@ -1,25 +1,24 @@
 const InputButton=document.getElementById("input-btn")
-let UlEl=document.getElementById("ul-el")
+const UlEl=document.getElementById("ul-el")
 
-let leads =[]
+let leads =["www.awesomeleads.com","greatLeads.com","myleads.com"]
 
-let inputEl =document.getElementById("input-el")
+const inputEl =document.getElementById("input-el")
 
 
 
 InputButton.addEventListener("click",function(){
-    console.log("Button clicked through event listener")
-
-
     leads.push(inputEl.value)
     console.log(leads)
-    for(let i=0;i<leads.length;i++){
-       UlEl.textContent=leads+leads[i]
-    }
 })
 
+let listItems=""
 
-// let sampleLeads=['www','jdiwjijd','mdojwo']
-// for(let i=0;i<sampleLeads.length;i++){
-//     console.log(sampleLeads[i])
-// }
+
+for(let i=0;i<leads.length;i++){
+   listItems+="<li>"+leads[i] +"</li>"
+}
+
+UlEl.innerHTML=listItems
+
+
