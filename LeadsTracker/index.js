@@ -1,7 +1,7 @@
 const InputButton=document.getElementById("input-btn")
 const UlEl=document.getElementById("ul-el")
 
-let leads =["www.awesomeleads.com","greatLeads.com","myleads.com"]
+let leads =[]
 
 const inputEl =document.getElementById("input-el")
 
@@ -9,16 +9,18 @@ const inputEl =document.getElementById("input-el")
 
 InputButton.addEventListener("click",function(){
     leads.push(inputEl.value)
-    console.log(leads)
+    renderLeads()
+    inputEl.value=""
+
 })
 
+function renderLeads(){
 let listItems=""
-
-
 for(let i=0;i<leads.length;i++){
-   listItems+="<li>"+leads[i] +"</li>"
+   listItems+="<li><a href='"+leads[i]+"' target='_blank'>"+leads[i]+"</a></li>"
 }
 
 UlEl.innerHTML=listItems
+}
 
 
