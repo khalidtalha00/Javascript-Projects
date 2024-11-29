@@ -1,10 +1,10 @@
 const InputButton=document.getElementById("input-btn")
 const UlEl=document.getElementById("ul-el")
-
 let leads =[]
-
 const inputEl =document.getElementById("input-el")
 
+localStorage.setItem("mleads","www.google.com")
+console.log(localStorage.getItem("mleads"))
 
 
 InputButton.addEventListener("click",function(){
