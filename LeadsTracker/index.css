@@ -25,3 +25,18 @@ button{
     color:#197687;
     font-weight: bold;
 }
+
+ul{
+    margin-top: 20px;
+    padding-left: 0;
+    list-style-type: none;
+
+}
+
+a{
+    color:#5f9341;
+
+}
+li{
+margin-top: 5px;
+}
