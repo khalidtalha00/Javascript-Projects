@@ -20,6 +20,7 @@ button{
     border: none;
    padding: 10px 20px;
    font-weight: bold;
+   
 }
 
 #delete-btn{
@@ -39,15 +40,13 @@ button{
 
 ul{
     margin-top: 20px;
-    padding-left: 0;
-    list-style-type: none;
+    margin-left: 20px;
+    /* padding-left: 0; */
+    list-style-type: disc;
 
 }
 
-a{
-    color:#5f9341;
 
-}
 li{
-margin-top: 5px;
+margin-top: 25px;
 }
