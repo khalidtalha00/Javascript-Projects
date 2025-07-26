@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    background-color: red;
+    padding: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 250px;
+}
+
+#box p{
+     color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#box:active{transform: rotate(30deg);}
